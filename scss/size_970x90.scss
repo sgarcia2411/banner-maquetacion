@@ -1,0 +1,234 @@
+main.size_970x90 {
+    background-color: $main-color;
+    width: 970px;
+    height: 90px;
+
+    /* Main */
+    .header {
+        color: $withe-color;
+    }
+
+    span.text-content {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        font-family: Sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        display: block;
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    /* internal elements */
+    .btn {
+        position: absolute;
+        font-family: $font-family;
+        background-color: #74be4a;
+        color: #e6e6e6;
+        border: none;
+        width: 84px;
+        border-radius: 5px;
+        padding: 6px 5px;
+        font-size: 11px;
+        display: block;
+        margin: 0 auto;
+        top: 48px;
+        left: 22px;
+    }
+
+    #bubbles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 10px;
+    }
+
+    /* Circle */
+
+    .circle {
+        position: absolute;
+        display: block;
+        height: 229px;
+        background-image: url("../images/patterns/Green Rings.png");
+        background-size: 729px;
+        background-position: top center;
+        width: 679px;
+        top: 110px;
+        left: -16px;
+    }
+
+    .woman {
+        position: absolute;
+        display: block;
+        height: 270px;
+        background-image: url("../images/woman and house/woman.png");
+        background-size: 411px;
+        background-position: top left;
+        background-repeat: no-repeat;
+        width: 440px;
+        top: 111px;
+        left: -1px;
+    }
+
+    .house {
+        position: absolute;
+        display: block;
+        height: 127px;
+        background-image: url("../images/woman and house/house.png");
+        background-size: 386px;
+        background-position: top right;
+        background-repeat: no-repeat;
+        width: 390px;
+        top: 227px;
+        right: -28px;
+    }
+
+    .bar-rectangle {
+        position: absolute;
+        display: block;
+        height: 73px;
+        background-image: url("../images/patterns/blue squares.png");
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 650px 97px;
+        width: 650px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .logo {
+        position: absolute;
+        display: block;
+        height: 55px;
+        width: 62px;
+        top: 46px;
+        left: 142px;
+        width: 100%;
+
+        .cisco {
+            display: block;
+            width: 50px;
+            margin-left: 0px;
+            z-index: 10;
+            float: left;
+        }
+        
+        .secure {
+            display: block;
+            width: 67px;
+            z-index: 10;
+            float: left;
+            margin-top: 5px;
+        }
+    }
+
+    .circle-orange-1 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/orange_circle.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 10px;
+
+        width: 10px;
+        top: 253px;
+        left: 3px;
+    }
+
+    .circle-orange-2 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/orange_circle_1.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 10px;
+
+        width: 10px;
+        top: 213px;
+        left: 35px;
+    }
+
+    .circle-orange-3 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/orange_circle_2.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 10px;
+        width: 10px;
+        top: 249px;
+        right: 39px;
+    }
+
+    .circle-orange-4 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/orange_circle_3.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 10px;
+
+        width: 10px;
+        top: 256px;
+        right: 3px;
+    }
+
+    .circle-red-1 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/red_circle.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 21px;
+        width: 22px;
+        height: 22px;
+        top: 231px;
+        left: 16px;
+    }
+
+    .circle-red-2 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/red_circle_1.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 15px;
+        width: 15px;
+        height: 15px;
+        top: 234px;
+        left: 50px;
+    }
+
+    .circle-red-3 {
+        position: absolute;
+        display: block;
+        height: 10px;
+        background-image: url('../images/accents/red_circle_2.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        background-size: 13px;
+        width: 13px;
+        height: 13px;
+        top: 235px;
+        left: 88px;
+    }
+}

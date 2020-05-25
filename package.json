@@ -1,0 +1,29 @@
+{
+  "name": "cisco-banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --proxy localhost:3000 --files '*'",
+    "dev": "nodemon index.js & compass watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sgarcia2411@bitbucket.org/sgarcia2411/cissco-banners.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sgarcia2411/cissco-banners#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "node-static": "^0.7.11",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1"
+  }
+}

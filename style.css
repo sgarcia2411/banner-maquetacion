@@ -1,0 +1,79 @@
+/* General */
+
+/* vars */
+:root {
+    --main-color: #0d274d;
+    --withe-color: #e6e6e6;
+    --red-color: #e3241b;
+    --orange-color: #fbab2c;
+    --green-color: #74be4a;
+    --blue-color: #00bbeb;
+
+    --font-family: Sans-serif;
+}
+
+/* background */
+body {
+    background-color: var(--withe-color);
+}
+
+/* main size */
+main.size_120x600 {
+    background-color: var(--main-color);
+    width: 120px;
+    height: 600px;
+}
+main.size_160x600 {
+    background-color: var(--main-color);
+    width: 160px;
+    height: 600px;
+}
+main.size_300x600 {
+    background-color: var(--main-color);
+    width: 300px;
+    height: 600px;
+}
+main.size_640x480 {
+    background-color: var(--main-color);
+    width: 640px;
+    height: 480px;
+}
+main.size_728x90 {
+    background-color: var(--main-color);
+    width: 728px;
+    height: 90px;
+}
+main.size_970x90 {
+    background-color: var(--main-color);
+    width: 970px;
+    height: 90px;
+}
+
+
+/* Main */
+main section#header {
+    color: var(--withe-color);
+}
+
+main section#header span {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* button */
+.btn {
+    
+    background-color:red;
+    color: var(--withe-color);
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,75 @@
+@import "compass/css3";
+
+/* General */
+
+/* vars */
+$main-color: #0d274d;
+$withe-color: #e6e6e6;
+$red-color: #e3241b;
+$orange-color: #fbab2c;
+$green-color: #74be4a;
+$blue-color: #00bbeb;
+$font-family: ciscosansregular;
+
+h3 {
+    text-align: center;
+}
+
+
+
+main {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* main size */
+@import "size_120x600.scss";
+
+@import "size_160x600.scss";
+
+@import "size_300x600.scss";
+
+@import "size_640x480.scss";
+
+@import "size_728x90.scss";
+
+@import "size_970x90.scss";
+
+@import "font/font-cisco.scss";
+
+/* background */
+body {
+    background-color: $withe-color;
+    font-family: $font-family;
+}
+
+main.size_728x90 {
+    background-color: $main-color;
+    width: 728px;
+    height: 90px;
+}
+main.size_970x90 {
+    background-color: $main-color;
+    width: 970px;
+    height: 90px;
+}
+
+main {
+    height: 200px;
+}
+/* Effects */
+
+
+// Bubbles
+.bubble {
+    fill: none;
+    stroke-width: 2px;
+    &.yellow {
+        stroke: #fbab2c;
+    }
+
+    &.red {
+        stroke: #e3241b;
+    }
+}
